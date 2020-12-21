@@ -26,6 +26,7 @@ This way, nodes or servers could unencrypt information, verify claims stored in 
 4. Integrate the Nu Cypher for storing claims [scopes, permissions]
 5. Dockerize the system for deployment
 6. Test on AWS EC2 instances
+7. Test that the token works with a simple Amplify project, Spring Security, PostMan, PowerBi, Rocket WebServer, and Python OAuth2
 
 # Timeline
 
