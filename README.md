@@ -12,7 +12,7 @@ This way, nodes or servers could unencrypt information, verify claims stored in 
 # Proposed Technologies
 
 - Rust
-- Actix Web to create a central authority for testing and maybe production. Perhaps another project.
+- Rocket Webserver [was actix-web discontinued?] to create a central authority for testing and maybe production. Perhaps another project.
 - NuBLS
 - Python Nu technologies although I will want to learn about the Cypher and try to get it into Rust
 - Python by extension
