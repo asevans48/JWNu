@@ -5,7 +5,7 @@ JWT style implementation on Nu Cypher. Supporting scopes, users, and other infor
 
 Web applications need to guaruntee user permissions. While you can do this using NuCypher in a way reminiscent of early web applications, the use of frameworks such as React and modern way of using microservices demands something different.
 
-This project aims to bring the Nu Cypher to web development for the Management of Secrets in a JSON Webtoken format. This token would ideally follow the [Branca](https://github.com/hako/branca) format and allow users to send information more securely over the Internet.
+This project aims to leverage the Nu Cypher to create a token similar to a JSON Web Token (JWT) . This token would ideally follow the [Branca](https://github.com/hako/branca) format and allow users to send information more securely over the Internet.
 
 This way, nodes or servers could unencrypt information, verify claims stored in the NuCypher and begin integrating the Cypher into existing web projects.
 
