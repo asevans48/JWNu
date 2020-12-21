@@ -18,6 +18,15 @@ This way, nodes or servers could unencrypt information, verify claims stored in 
 - Python by extension
 - Branca token concept from above
 
+# Goals
+
+1.) Implement a Rust Branca server
+2.) Implement authentication for the central authority
+3.) Integrate the Nu Cypher for registering users [use a UUID and store claims as in AWS Cognito]
+4.) Integrate the Nu Cypher for storing claims [scopes, permissions]
+5.) Dockerize the system for deployment
+6.) Test on AWS EC2 instances
+
 # Timeline
 
 Starting sometime in Jaunary - May and ending whenever I can get it done. Help is appreciated
